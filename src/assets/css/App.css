@@ -1,0 +1,104 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.compteur {
+  width: 60vw;
+  height: 23vh;
+  background: #3498db;
+  text-align: center;
+  font-size: 6em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttons {
+  width: 60vw;
+  height: 65vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-around;
+}
+
+.piecesecond {
+  background: #1abc9c;
+  width: 60vw;
+  height: 37px;
+  padding-top: 12px;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+.button p {
+  width: 250px;
+  text-align: center;
+}
+
+button {
+  height: 60px;
+  width: 250px;
+  background: #ecf0f1;
+  font-size: 1.1em;
+  opacity: 0.6;
+  cursor: not-allowed;
+  border: 0px;
+  border-radius: 5px;
+}
+
+button:focus {
+  outline: none;
+}
+
+
+.btn-zero,
+.btn-Eighty,
+.btn-300,
+.btn-5000,
+.btn-10000,
+.btn-1000000,
+.btn-1000000000,
+.btn-10000000000 {
+  background: #ecf0f1;
+  border: 3px solid #ecf0f1;
+  cursor: pointer;
+  opacity: 1;
+  transition: background 0.5s, border 0.5s;
+}
+
+.btn-zero:hover,
+.btn-Eighty:hover,
+.btn-300:hover,
+.btn-5000:hover,
+.btn-10000:hover,
+.btn-1000000:hover,
+.btn-1000000000:hover,
+.btn-10000000000:hover {
+  border: 1px solid #ecf0f1;
+  background: #bdc3c7;
+  transition: background 0.5s, border 0.5s;
+}
+
+.reset {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #3498db;
+  color: #3498db;
+  cursor: pointer;
+}
+
+.reset:hover {
+  border: 2px solid #3498db;
+  color: white;
+  background: #3498db;
+  transition: color 0.5s, background 0.5s; 
+}
