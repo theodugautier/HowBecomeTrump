@@ -1,4 +1,4 @@
-# How Become Trump !
+# How To Become Trump !
 
 Game like http://orteil.dashnet.org/cookieclicker/ developed in React.
 
